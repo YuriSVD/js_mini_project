@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    transition: 1s;
+}
+.header { /*ok*/
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body p {
+    margin: 0;
+    transition: 1s;
+}
+body a:hover {
+    color: blue;
+    transition: 1s;
+}
+.header a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5vw;
+    margin-right: 20px;
+}
+body a {
+    text-decoration: none;
+    color: black;
+}
+.label { /*ok*/
+    width: 2.6vw;
+    height: 1.35vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    border-radius: 50px;
+    padding: 5px;
+    box-sizing: border-box;
+    position: relative;
+}
+.label:hover { /*ok*/
+    cursor: pointer;
+}
+#ball { /*ok*/
+    width: 1.1vw;
+    height: 1.1vw;
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+    left: 0.15vw;
+    top: 0.11vw;
+    transition: 1s;
+}
+#checkbox { /*ok*/
+    opacity: 0;
+    position: absolute;
+}
+body.darkTheme {
+    background-color: #292C35; /*ok*/
+}
+body.darkTheme * { /*ok*/
+    color: white;
+    transition: 1s;
+}
+body.darkTheme #ball { /*ok*/
+    background-color: black;
+}
+body.darkTheme .label { /*ok*/
+    background-color: white;
+}

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+
+.item {
+    font-size: 1.65vw;
+    display: flex;
+    align-items: center;
+}
+.keyDiv {
+    width: 9vw;
+}
+button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90vw;
+    background: none;
+    text-decoration: none;
+    font-size: 2.5vw;
+    font-family: Tinos, serif;
+    transition: 1s;
+}
+button:hover {
+    cursor: pointer;
+    color: blue;
+    transition: 1s;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.75vw;
+    transition: 1s;
+}
+a:hover {
+    color: blue;
+    transition: 1s;
+}
+#userPosts {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    width: 90vw;
+}
+.linkDiv {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: black solid 1px;
+    width: 17vw;
+    height: 10vw;
+    margin-bottom: 10px;
+    text-align: center;
+}

@@ -1,0 +1,18 @@
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.linkDiv {
+    width: 45vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 2.5vw;
+    transition: 2s;
+}
