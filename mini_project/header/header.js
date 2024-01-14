@@ -1,3 +1,4 @@
+
 export const header = document.createElement("div");
 header.classList.add("header");
 const switchTheme = document.createElement("div");
@@ -17,8 +18,10 @@ const homePage = document.createElement("a");
 homePage.innerText = "All Users";
 const posts = document.createElement("a");
 posts.innerText = "All Posts";
-homePage.href = window.location.origin + "/js_mini_project/mini_project/index.html";
-posts.href = window.location.origin + "/js_mini_project/mini_project/posts/posts.index.html";
+
+homePage.href = localStorage.getItem("rootPath") + "/index.html"; //window.location.origin + "/js_mini_project/mini_project/index.html";
+posts.href = localStorage.getItem("rootPath") + "/posts/posts.index.html";  //window.location.origin + "/js_mini_project/mini_project/posts/posts.index.html";
+
 navigator.append(homePage, posts);
 header.style.borderBottom = "black solid 1px"; // maybe
 header.append(navigator, switchTheme);
