@@ -1,12 +1,8 @@
-import {getElementData} from "../functions/getElementData.js";
-import {elementPrinter} from "../functions/elementPrinter.js";
-import {baseURL, urls} from "../functions/constants.js";
-import {getAllElements} from "../functions/getAllElements.js";
+import {baseURL, urls} from "../configs/constants.js";
+import {getElementData, elementPrinter, getAllElements, modeTheme} from "../functions";
 import {header} from "../header/header.js";
-import {modeTheme} from "../functions/modeTheme.js";
 
 const post = getElementData();
-console.log(post);
 const wrap = document.createElement("div");
 wrap.classList.add("wrap");
 const headerToPost = document.createElement("h3");

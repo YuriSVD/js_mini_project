@@ -2,7 +2,7 @@ export const elementPrinter = (element, elementDiv) => {
     for (const elementKey in element) {
         const data = element[elementKey];
         const div = document.createElement("div");
-        div.classList.add("item");
+        div.classList.add("item", "flex");
         const keyDiv = document.createElement("div");
         keyDiv.classList.add("keyDiv");
         const keyP = document.createElement("p");

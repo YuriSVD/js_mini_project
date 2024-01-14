@@ -4,4 +4,4 @@ const urls = {
     posts: "/posts",
     comments: "/comments"
 }
-export {baseURL, urls};
+export {baseURL, urls}; //не бачу сенсу створювати index.js для одного файлу

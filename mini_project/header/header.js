@@ -17,12 +17,9 @@ const homePage = document.createElement("a");
 homePage.innerText = "All Users";
 const posts = document.createElement("a");
 posts.innerText = "All Posts";
-const comments = document.createElement("a");
-comments.innerText = "All Comments";
 homePage.href = window.location.origin + "/js_mini_project/mini_project/index.html";
 posts.href = window.location.origin + "/js_mini_project/mini_project/posts/posts.index.html";
-comments.href = window.location.origin + "/js_mini_project/mini_project/comments/comments.index.html";
-navigator.append(homePage, posts, comments);
+navigator.append(homePage, posts);
 header.style.borderBottom = "black solid 1px"; // maybe
 header.append(navigator, switchTheme);
 

@@ -2,19 +2,26 @@
     display: flex;
     flex-wrap: wrap;
 }
+
 .item {
-    display: flex;
-    align-items: center;
     font-size: 1vw;
 }
+
 .elementWrap {
-    width: 25vw;
-    margin-bottom: 20px;
+    width: 24.5vw;
+    margin-bottom: 1vw;
     box-sizing: border-box;
 }
+
 .keyDiv {
     width: 3vw;
 }
+
 .valueDiv {
     width: 22vw;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
 }

@@ -1,7 +1,6 @@
-import {getAllElements} from "../functions/getAllElements.js";
-import {baseURL, urls} from "../functions/constants.js";
+import {baseURL, urls} from "../configs/constants.js";
+import {getAllElements, modeTheme} from "../functions";
 import {header} from "../header/header.js";
-import {modeTheme} from "../functions/modeTheme.js";
 
 const wrap = document.createElement("div");
 const h2 = document.createElement("h2");

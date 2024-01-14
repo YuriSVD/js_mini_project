@@ -11,7 +11,7 @@ export const getAllElements = (url, href, wrap) => {
                         name = element.title; //костиль :)
                     }
                     const div = document.createElement("div");
-                    div.classList.add("linkDiv");
+                    div.classList.add("linkDiv", "flex");
                     const a = document.createElement("a");
                     a.href = href + JSON.stringify(element);
                     a.innerText = `${element.id}. ${name}`;
